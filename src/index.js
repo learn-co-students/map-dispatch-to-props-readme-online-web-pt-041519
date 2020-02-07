@@ -10,7 +10,8 @@ const store = createStore(shoppingListItemReducer, window.__REDUX_DEVTOOLS_EXTEN
 
 ReactDOM.render(
   <Provider store={store}>
-    <App store={store}/>
+    {/* <App store={store}/> */}
+    <App />
    </Provider>
   ,document.getElementById('root')
 );
